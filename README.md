@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Dependency | Purpose |
+|------------|---------|
+| @emotion/react | CSS-in-JS library that lets you write CSS styles with JavaScript |
+| @emotion/styled | Styled component creation for Emotion |
+| @mui/material | React UI framework with pre-built, customizable components |
+| @mui/system | Low-level utility functions for building custom designs |
+| @mui/x-data-grid | Advanced data table component for Material-UI |
+| @next-auth/prisma-adapter | Prisma adapter for NextAuth.js authentication |
+| @prisma/client | Auto-generated database client for Prisma ORM |
+| @radix-ui/react-dropdown-menu | Accessible dropdown menu component |
+| @radix-ui/react-scroll-area | Custom scrollable area component |
+| @radix-ui/react-tabs | Accessible tabs component |
+| @total-typescript/ts-reset | Stricter TypeScript types for better type safety |
+| @upstash/ratelimit | Rate limiting implementation for Upstash Redis |
+| @upstash/redis | Redis client for Upstash, serverless Redis service |
+| class-variance-authority | Utility for creating variant classes in CSS-in-JS |
+| clsx | Utility for conditionally joining classNames |
+| date-fns | Modern JavaScript date utility library |
+| framer-motion | Animation library for React |
+| lodash | Utility library with helpful JavaScript functions |
+| lucide-react | Icon library for React |
+| nanoid | Tiny, secure, URL-friendly unique string ID generator |
+| next-auth | Authentication library for Next.js applications |
+| next-themes | Theme management for Next.js |
+| openai | Official OpenAI API client for Node.js |
+| prism-react-renderer | Syntax highlighting component for React |
+| prisma | Modern database toolkit and ORM |
+| react-hot-toast | Lightweight toast notifications for React |
+| sharp | High-performance image processing library for Node.js |
+| simplebar-react | Custom scrollbar component for React |
+| tailwind-merge | Utility for merging Tailwind CSS classes |
+| zod | TypeScript-first schema validation library |
